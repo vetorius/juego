@@ -1,3 +1,7 @@
+import ddf.minim.*;
+
+Minim minim;
+AudioPlayer musica;
 PImage fondo;
 int px = 0;
 personaje mipajaro;
@@ -6,6 +10,10 @@ void setup(){
   size(200,237);
   fondo = loadImage("fondo.png");
   mipajaro = new personaje();
+  minim = new Minim(this);
+  musica = minim.loadFile("smb.mp3");
+  musica.loop();
+  musica.play();
 }
 
 void draw(){

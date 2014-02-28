@@ -6,7 +6,7 @@ class personaje {
   
   personaje(){
     posY = height/2;
-    bird = requestImage("./data/bird.png");
+    bird = requestImage("bird.png");
   }
   
   void mover(){
