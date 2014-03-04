@@ -31,15 +31,6 @@ void draw(){
   px--;
 }
 
-//void keyPressed() {
-//  if ((key == 'd' || key == 'D') && px > -440) {
-//      px -= 2 ;
-//    }
-//  if ((key == 'a' || key == 'A') && px < 0) {
-//      px += 2 ;
-//    }
-//}
-
 void mousePressed(){
   mipajaro.impulsar();
 }

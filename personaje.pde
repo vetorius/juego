@@ -32,7 +32,6 @@ class personaje {
   void mostrar(){
     imageMode(CENTER);
     image(bird, width/2 ,posY );
-//    ellipse(width/2, posY,15,15);
   }
   
   void impulsar(){
